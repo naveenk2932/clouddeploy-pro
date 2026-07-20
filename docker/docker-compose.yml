@@ -2,9 +2,7 @@ version: "3.9"
 
 services:
   app:
-    build:
-      context: ..
-      dockerfile: docker/Dockerfile
+    image: naveen637999/clouddeploy-pro:1.0.0
 
     env_file:
       - ../.env
